@@ -1,0 +1,11 @@
+server:
+  tomcat:
+    accept-count: 1
+    max-connections: 1
+    threads:
+      max: 1
+      min-spare: 1
+
+logging:
+  level:
+    web: debug
